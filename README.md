@@ -1,2 +1,128 @@
-# wiki
-wiki
+搭建属于自己的私人云盘（ifile / Cloudreve）
+
+# 一、ifilespace
+
+## 服务端准备
+
+https://ifile.space/
+
+下载一位大佬用go语言开发的服务端
+
+不支持在 Docs 外粘贴 block
+
+**用之前我们可以使用一下大佬的demo体验一下**
+
+```
+https://demo.ifile.space/main
+
+账号密码都是demo
+```
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b7a9f241fb324d0a846d441af307af8e~tplv-k3u1fbpfcp-zoom-1.image)
+
+界面如图
+
+## 选择自己需要的版本下载
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/936aa5477f6b436385a7f0cd6f2144d1~tplv-k3u1fbpfcp-zoom-1.image)
+
+我这里windows为例
+
+解压后得到一个exe文件
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4b80b2f79fed4e69b2a27a8dc0b99bef~tplv-k3u1fbpfcp-zoom-1.image)
+
+运行即可
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b4651a67c8ee467599ff95fbd81aaada~tplv-k3u1fbpfcp-zoom-1.image)
+
+相关信息
+
+```
+// 密码都是初始化的每次不一样先登录上去在修改
+
+账号 admin
+
+密码 uIuQ9ASs 
+
+//也就是本机ip，监听的是3030端口 127.0.0.1 是虚拟本机地址
+
+登陆地址：127.0.0.1:3030
+
+一般获取比如：192.168.4.100:3030
+```
+
+//平常只要保持这个窗口运行就可以了
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b416cfd32b9944fc984ff072081210fb~tplv-k3u1fbpfcp-zoom-1.image)
+
+修改密码
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d8cd0c1860ea4e8d9f03b312a6f2a3fb~tplv-k3u1fbpfcp-zoom-1.image)
+
+进入设置
+
+进行的一些基本设置
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d54b840b21ff4d418b30f3f4ef75e54f~tplv-k3u1fbpfcp-zoom-1.image)
+
+1.  网站名称自己拟定
+1.  是否注册（注册需要绑定邮箱）
+1.  Aria2离线下载需要自己配置
+
+其他功能咱们可以慢慢探索
+
+## 优点：几乎所有客户端都有
+
+## 缺点：未开源
+
+## 个人见解：
+
+1.  个人体验了一周感觉蛮好用的。
+1.  上传下载速度都很快，没有软件限制。
+1.  硬件能跑多少就多少
+1.  支持服务端直接拷贝文件到目录下，在web界面扫描一次就能识别到。
+
+# 二、Cloudreve
+
+## **https://cloudreve.org/**
+
+## 优点
+
+**云存储**
+
+填写简单信息即可快速对接七牛、又拍云、阿里云OSS、AWS S3，当然你也可以选择将文件存放在本地。
+
+**多用户**
+
+你可以将Cloudreve作为私有云使用，Cloudreve强大的用户系统也可作为公有云平台使用。
+
+**上传策略**
+
+不同用户组可绑定不同上传策略，并在多个上传策略间快速切换，充分利用存储资源。
+
+**在线预览**
+
+支持图片、视频、音频、Office文档在线预览；文本文件、Markdown文件在线编辑。
+
+**文件分享**
+
+用户可以创建私有或公有分享链接，快速分享文件、目录给好友。
+
+**WebDAV支持**
+
+你可以将网盘映射到本地管理，或者使用其他支持WebDAV协议的文件管理器，实现无缝跨平台。
+
+**响应式布局**
+
+全站响应式布局，移动端也能拥有良好的使用体验
+
+**文件上传**
+
+支持大文件分片上传、断点续传、批量上传、拖拽上传。
+
+**易于部署**
+
+使用PHP + MySQL架构，简单5分钟即可成功部署您的专属
+
+## 唯一缺点：没有客户端全用web
