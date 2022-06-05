@@ -14,11 +14,9 @@
 
 我们只是需要他来登录、发现主机而已；串流依旧走的是P2P直连或者内网穿透。
 
-没有代理的朋友可以下载群文件这个，之后自己注册账号然后测试web端
+这里下载 https://github.com/liyuanbicy/wiki
 
 （免费的凑合能用，但不好用、时不时可能还会报错800.建议花钱找个靠谱的）
-
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b826ce9e2e3b4c36bb5587987d3cac83~tplv-k3u1fbpfcp-zoom-1.image)
 
 **便宜代理的一个传送门：**
 
