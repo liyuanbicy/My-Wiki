@@ -118,7 +118,7 @@ app_proxy=true
 
 app_proxy_port=4780
 
-## **5.parsec客户端配置走代理线路**
+## **5.parsec客户端配置走代理解决800报错**
 
 说明：
 
