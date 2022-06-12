@@ -187,8 +187,7 @@ app_proxy_port = 7890
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6c524b52463942f29af82f299e7f7370~tplv-k3u1fbpfcp-zoom-1.image)
 
 
-# 更详细的讨论欢迎加入电报群
-https://t.me/+BnIKWjwUsBZiODA9
+
 
 ______________________________________________________________
 
