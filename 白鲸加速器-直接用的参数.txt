@@ -1,4 +1,0 @@
-app_proxy_address = 127.0.0.1
-app_proxy_scheme = http
-app_proxy = true
-app_proxy_port = 10810
